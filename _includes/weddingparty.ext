@@ -1,6 +1,4 @@
-<div id="weddingparty" class="panel panel-default">
+<div id="weddingparty">
 	<h2>Wedding Party</h2>
-	<div class="panel-body">
-		<img class="img-thumbnail img-responsive" src="http://i.imgur.com/86urnWm.jpg" alt="List of the wedding party" />
-	</div>
+	<img class="img-thumbnail img-responsive" src="http://i.imgur.com/86urnWm.jpg" alt="List of the wedding party" />
 </div>
