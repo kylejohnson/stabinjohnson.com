@@ -1,0 +1,20 @@
+<div id="events">
+	<h2>Events</h2>
+
+		{% for event in site.data.events %}	
+		<div class="media">
+			<p class="calendar pull-left media-object">
+				<span>{{ event.day }}</span>
+				<span class="month">{{ event.month }}</span>
+				<span class="year">{{ event.year }}</span>
+				<span>{{ event.time }}</span>
+			</p>
+
+			<div class="media-body">
+				<img src="/img/waterfront-garden.jpg" alt="Waterfront Garden at Pier 5" class="img-responsive pull-right img-rounded" />
+				<h3 class="media-heading">{{ event.title }}</h3>
+				<p>{{ event.description }}</p>
+			</div>
+		</div>
+		{% endfor %}
+</div>

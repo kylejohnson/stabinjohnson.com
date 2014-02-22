@@ -1,0 +1,19 @@
+<div id="parking" class="panel panel-default">
+	<div class="panel-body">
+
+		<h3>Parking</h3>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="thumbnail">
+					<img src="/img/parking.png" alt="Closest parking locations" class="img-responsive img-rounded center-block" />
+
+					<div class="caption">
+						<p>The Pier 5 Hotel offers valet parking as well as a self parking lot.  There is also a public parking garage off of Pratt Street.  You can view a map of parking options by <a href="https://mapsengine.google.com/map/edit?mid=zG8Vzxu91lSg.k5nTWtwle9SU">clicking here</a>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div> <!-- End .panel-body -->
+</div> <!-- End #parking -->

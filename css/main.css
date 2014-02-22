@@ -1,0 +1,73 @@
+body {
+  text-align:center;
+  background: transparent;
+  padding-top: 100px;
+}
+
+html {
+    min-height: 100%;
+    /* background : transparent url("http://i.imgur.com/j0CoRzO.jpg") 0 0 no-repeat fixed !important;*/
+    background: url("http://i.imgur.com/j0CoRzO.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  color: white;
+  text-transform:uppercase;
+  border-radius: 15px;
+  padding:5px 4px 2px 4px;
+  }
+
+h2 {
+  background-color:#FF7F00;
+}
+
+h3, h4 {
+  color:#FF7F00;
+}
+
+.jumbotron {
+  font-family: 'Josefin Sans', serif !important;
+  background: rgb(130, 178, 44);
+  background: rgba(247, 244, 237, 0.9);
+  color:#FF7F00;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+@media (max-width: 768px) {
+  .jumbotron {
+      padding: 20px; 40px;
+  }
+}
+
+.media {
+   background-color: white;
+   border-radius: 4px;
+}
+
+.media-body h3 {
+   background-color: #fff;
+   color:  #82B22C;
+}
+
+.media-body {
+  text-align: left;
+}
+
+.description {
+  margin-top:10px;
+}
+
+.description p {
+  display: inline;
+}
+
+.date {
+  margin-left:10px;
+}
+
+.panel {
+  margin-top: 20px;
+}

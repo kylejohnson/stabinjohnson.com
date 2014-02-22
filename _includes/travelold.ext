@@ -1,0 +1,24 @@
+            <div id="travel"> <!-- Start Travel -->
+               <h2>Travel</h2>
+               
+               <div class="list-group">
+                  <div class="list-group-item">
+                     <img alt="Baltimore Skyline" class="img-responsive img-rounded" src="/img/baltimore1.jpg" />
+                  </div>
+                  
+                  <div class="list-group-item">
+                     <h3 class="list-group-item-heading">Hotels</h3>
+                     <div class="contact">
+                        <div><a href="https://www.google.com/maps/place/Pier+5+Hotel/@39.2849612,-76.6046892,17z/data=!3m1!4b1!4m2!3m1!1s0x89c8037d2442dea3:0x4aad77c2f778592a">Pier 5 Waterfront Hotel in Baltimore</a></div>
+                        <div>711 Eastsern Ave, Baltimore MD.</div>
+                        <div>(410) 539-2000</div>
+                        <div><a href="www.harbormagic.com">www.harbormagic.com</a></div>
+                     </div>
+                  </div>
+                  
+                  <div class="list-group-item">
+                     <h3 class="list-group-item-heading">Parking</h3>
+                     <p>The Pier 5 Hotel offers valet parking as well as a self parking lot.  There is also a public parking garage off of Pratt Street.  You can view a map of parking options by <a href="https://mapsengine.google.com/map/edit?mid=zG8Vzxu91lSg.k5nTWtwle9SU">clicking here</a>.</p>
+                  </div>
+               </div>
+            </div> <!-- End Travel -->

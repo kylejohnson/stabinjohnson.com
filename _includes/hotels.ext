@@ -1,0 +1,35 @@
+<div id="hotels" class="panel panel-default">
+	<div class="panel-heading">
+		<h3>Hotels</h3>
+	</div>
+
+	<div class="panel-body">
+
+		<div class="row">
+		
+			{% for hotel in site.data.hotels %}
+		
+			<div class="col-md-4">
+				<div class="thumbnail">
+		
+					<img src="{{ hotel.img_src }}" alt="{{ hotel.img_alt }}" width="300px" height="166px" />
+		
+					<div class="caption">
+		
+						<h4><a href="{{ hotel.map_href }}">{{ hotel.name }}</a></h4>
+						<div class="contact">
+							<div>{{ hotel.address }}</div>
+							<div>{{ hotel.phone }}</div>
+							<div><a href="www.harbormagic.com">www.harbormagic.com</a></div>
+						</div> <!-- End .contact -->
+		
+					</div> <!-- End .caption -->
+		
+				</div> <!-- End .thumbnail -->
+			</div> <!-- End .col-md-4 -->
+		
+			{% endfor %}
+		
+		</div> <!-- End .row -->
+	</div> <!-- End .panel-body -->
+</div> <!-- End .panel .panel-default -->

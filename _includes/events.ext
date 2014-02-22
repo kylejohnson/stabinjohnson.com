@@ -1,0 +1,31 @@
+<div id="events">
+	<h2>Events</h2>
+
+		{% for event in site.data.events %}	
+		<div class="media">
+			<div class="pull-left">
+				<img src="{{ event.img_src }}" alt="{{ event.img_alt }}" class="img-responsive media-object" />
+			</div>
+
+			<div class="media-body">
+				<h3 class="media-heading">{{ event.title }}</h3>
+
+				<div class="datetime">
+					<span class="time">
+						<span class="glyphicon glyphicon-time"></span>
+						<span>{{ event.time }}</span>
+					</span>
+					<span class="date">
+						<span class="glyphicon glyphicon-calendar"></span>
+						<span>{{ event.date }}</span>
+					</span>
+				</div>
+
+				<div class="description">
+					<span class="glyphicon glyphicon-align-left"></span>
+					<p>{{ event.description }}</p>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+</div>
