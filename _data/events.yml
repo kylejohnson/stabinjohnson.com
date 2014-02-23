@@ -2,7 +2,7 @@
   description: El Salto.  Just kidding!  We're still figuring this out.
   date: Thursday October 2nd. 2014
   time: 4:00 PM
-  img_src: 'http://placehold.it/300x166&text=To Be Decided'
+  img_src: 'http://placehold.it/300x166&amp;text=To%20Be%20Decided'
   img_alt: Rehearsal Dinner
 
 - title: Wedding Ceremony
