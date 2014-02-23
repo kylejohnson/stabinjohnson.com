@@ -8,7 +8,7 @@
 			<div class="col-md-4">
 				<div class="thumbnail">
 		
-					<img src="{{ hotel.img_src }}" alt="{{ hotel.img_alt }}" width="300px" height="166px" />
+					<img src="{{ hotel.img_src }}" alt="{{ hotel.img_alt }}" />
 		
 					<div class="caption">
 		
