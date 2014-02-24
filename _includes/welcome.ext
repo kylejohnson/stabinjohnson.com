@@ -1,3 +1,11 @@
 <div id="welcome">
-	<img class="img-thumbnail img-responsive" alt="Kyle and Kristin at David and Sarah See's Wedding" src="http://i.imgur.com/JcF09V5h.jpg" />
+	<div class="thumbnail">
+		<img class="img-responsive" alt="Kyle and Kristin at David and Sarah See's Wedding" src="http://i.imgur.com/JcF09V5h.jpg" />
+
+		<div class="caption">
+			<h1>Kristin &amp; Kyle</h1>
+			<p>Friday, October 3rd, 2014</p>
+		</div>
+	</div>
 </div>
+

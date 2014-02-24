@@ -27,33 +27,9 @@ h3, h4 {
   color:#FF7F00;
 }
 
-.jumbotron {
-  font-family: 'Josefin Sans', serif !important;
-  background: rgb(130, 178, 44);
-  background: rgba(247, 244, 237, 0.9);
+#welcome h1, #welcome p {
   color:#FF7F00;
-  padding-top:5px;
-  padding-bottom:5px;
-}
-
-@media (max-width: 768px) {
-  .jumbotron {
-      padding: 20px; 40px;
-  }
-}
-
-.media {
-   background-color: white;
-   border-radius: 4px;
-}
-
-.media-body h3 {
-   background-color: #fff;
-   color:  #82B22C;
-}
-
-.media-body {
-  text-align: left;
+  font-family: 'Josefin Sans', serif !important;
 }
 
 .description {
